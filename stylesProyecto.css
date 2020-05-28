@@ -28,7 +28,7 @@ p {
   padding: 0 20px;
 }
 .text-primary {
-  color:#F4791B;
+  color:#1E12C9;
 }
 .text-primary1 {
   color:#152ABC;
@@ -59,14 +59,37 @@ p {
 }
 
 .bg-light {
-  background: #f4f4f4;
-  color: #215b33;
+  background: #f4f4f4;/*FONDO*/
+  color: #215b33;/*LEtras*/
+}
+
+.bg-light1 {
+  background: #f4f4f4;/*FONDO*/
+  color: #215b33;/*LEtras*/
+  opacity: 0.9;
+  width: 50%;
 }
 
 .bg-primary {
-  background: #5BBF21;
-  color: #215b33;
+  background: #5BBF21;*/FONDO*/
+  color: #215b33;*/LETRAS*/
   font-size: 20px;
+  width: 50%;
+  padding: 50px;
+  float: left;
+  height: 360px;
+  text-align: center;
+}
+
+.bg-primary1 {
+  background: #F9E764;*/FONDO*/
+  color: #141413;*/LETRAS*/
+  font-size: 20px;
+  width: 45%;
+  padding: 50px;
+  float: left;
+  height: 500px;
+  text-align: center;
 }
 
 .clr {
@@ -93,7 +116,7 @@ p {
  #box-4 {
    float: right;
    width: 100%;
-background: url('./IMAGENES/variedad.jpg')no-repeat center center/cover;
+background: url('/IMAGENES/variedad.jpg')no-repeat center center/cover;
 font-size: 17px;;
 color: blue;
  }
@@ -132,11 +155,11 @@ color: blue;
 }
 
 #welcome {
-  background: url('./imagenes/madera.jpg') no-repeat center center/cover;
+  background: url('../IMAGENES/madera.jpg') no-repeat center center/cover;
   height: 600px;
 }
 #welcome1 {
-  background: url('../imagenes/fondo.jpg') no-repeat center center/cover;
+  background: url('../imagenes/fondo-naranja-oscuro.jpg') no-repeat center center/cover;
   width: 100%;
   height: 400px;
 }
@@ -168,7 +191,7 @@ color: blue;
 
 /*Información principal*/
 #home-info {
-  height: 350px;
+  height: 300px;
 }
 #home-info .info-img {
   float: right;
@@ -178,7 +201,7 @@ color: blue;
   padding: 40px 30px;
   overflow: hidden;
 }
-#home-info .info-content {
+#home-info .info-content1 {
   float: right;
   width: 50%
   height: 85%;
@@ -186,7 +209,7 @@ color: blue;
   padding: 40px 30px;
   overflow: hidden;
 }
-#home-info .info-content1 {
+#home-info .info-content {
   float: left;
   width: 50%;
   height: 85%;
@@ -198,8 +221,8 @@ color: blue;
   padding-bottom: 30px;
 }
 .box {
-  float: left;
-  width: 33.3%;
+  float: center;
+  width: 100%;
   padding: 50px;
   text-align: center;
 }
@@ -231,13 +254,14 @@ color: blue;
 
 /* Testimonos */
 #testimonials {
-  height: 600px;
-  background: url('/imagenes/photo-fime-2-sepia-bg.jpg') no-repeat center center/cover;
+  height: 4000px;
+  background: url('../IMAGENES/prueba.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
   padding-top: 100px;
 }
 #testimonials1 {
-  height: auto;
-  background: url('/imagenes/fondo2.jpg') no-repeat center center/cover;
+  height: 590px;
+  background: url('/imagenes/baner.jpg') no-repeat center  center/cover;
   padding-top: 100px;
 }
 
@@ -255,9 +279,11 @@ color: blue;
 }
 
 #testimonials .testimonial img {
-  width: 100px;
+  width: 300px;
+  height: 300px;
   float: left;
   margin-right: 20px;
+  margin-top: 10px;
   border-radius: 50%;
 }
 
